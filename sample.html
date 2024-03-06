@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al Universe sample</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header class="container mx-auto">
+        <div class="text-center mt-2 border-b-2">
+            <h1 class="text-4xl font-bold mb-2">AI Universe Hub</h1>
+            <button id="sort-btn" class="btn bg-red-500 rounded-xl px-3 text-white font-semibold mb-3">Sort By
+                Date</button>
+        </div>
+    </header>
+    <main>
+        <!-- card container -->
+        <div id="card-container" class="container mx-auto grid grid-cols-1 lg:grid-cols-3 gap-6 mt-5">
+            <!-- card style -->
+            <div class="card w-full bg-base-100 shadow-xl">
+                <figure class="overflow-hidden h-72">
+                    <img class="w-full" src="./images/smells.jpg" alt="Shoes" />
+                </figure>
+                <div class="card-body">
+                    <h2 class="card-title font-bold">Features</h2>
+                    <div>
+                        <ol>
+                            <li>1. <span>Natural language processing</span></li>
+                            <li>2. <span>Contextual understanding</span></li>
+                            <li>3. <span>Text generation</span></li>
+                        </ol>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="flex justify-between items-center">
+                        <div class="space-y-2">
+                            <h2 class="card-title font-bold">ChatGPT</h2>
+                            <div class="flex space-x-2">
+                                <img src="./images/calender.png" alt="">
+                                <p>11/01/2022</p>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="bg-red-100 rounded-full p-4"><img src="./images/arrow.png" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- see more -->
+        <div class="text-center mt-2">
+            <button class="btn bg-red-500 rounded-xl px-6 text-white font-semibold mb-3">See More</button>
+        </div>
+    </main>
+    <script src=""></script>
+</body>
+
+</html>
